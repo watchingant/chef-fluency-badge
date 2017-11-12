@@ -7,3 +7,4 @@ node_name                "awatson"
 client_key               "#{current_dir}/awatson.pem"
 chef_server_url          "https://watchingant2.mylabserver.com/organizations/thebizness"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="vim"
